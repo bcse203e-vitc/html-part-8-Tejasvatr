@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tejasvat R</title>
+    <script src="pgm14.js" defer></script>
+</head>
+<body>
+    <h2>Sign-Up Form</h2>
+    <form>
+        <label>Name: <input type="text" id="name" oninput="validate()"></label>
+        <span id="nameErr"></span><br><br>
+
+        <label>Email: <input type="email" id="email" oninput="validate()"></label>
+        <span id="emailErr"></span><br><br>
+
+        <label>Password: <input type="password" id="pass" oninput="validate()"></label>
+        <span id="passErr"></span><br><br>
+
+        <button type="submit" id="submit" disabled>Submit</button>
+    </form>
+</body>
+</html>
